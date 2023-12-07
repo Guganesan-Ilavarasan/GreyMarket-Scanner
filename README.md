@@ -36,8 +36,10 @@ webscraper.py -> word_counter.py
 The word counter generates the fifty most used words, revealing the culture and materials with the highest occurrence in the lot, popular among buyers. A dictionary is compiled from these most used terms to perform subsequent analysis. Accordingly, in the scraped database, two reference columns are added, one for the dynasty of the artefact and the other for its material. Consequently, using the dictionary, a partial textual match is detected on the object name's column by conditional if statements with wildcards to populate the reference columns. The data in these columns act as ordinal data indicators for the classification of data, which would further assist in visualisations.</br>
 </div>
 
+</br>
 
-> Example of an analysis: A Heatmap for sum of prices of artefacts of different dynastical cultures and material composition.</br>
-  
+> Example of an analysis: A heat map for the sum of prices of artefacts of different dynastical cultures and material composition.</br>
+
+
 ![image](https://github.com/Guganesan-Ilavarasan/GreyMarket-Scanner/assets/85569213/614073a2-ad4f-4cfd-a77d-71c1d6e4e672)
 
